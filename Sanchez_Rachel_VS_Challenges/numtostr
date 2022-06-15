@@ -1,0 +1,9 @@
+function numToStr(arr){
+	arr = arr.map(function(elem){
+		if (elem<0){
+			return 'Dojo';
+		} else {
+			return elem;
+		}
+	});
+	return arr;
